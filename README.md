@@ -19,11 +19,14 @@ override func viewDidLoad() {
 
 You can configure component from storyboard or programmatically.
 ```Swift
-avatar.isCropCircle = true
 avatar.placeholder = UIImage(named: "cat")
 avatar.progressColor = .blue
 avatar.progressRadius = 4
 avatar.circle = true
+```
+Scale and crop the image in a circle after loading.
+```Swift
+avatar.isCropCircle = true
 ```
 You can also change the space for the cache.
 ```Swift
