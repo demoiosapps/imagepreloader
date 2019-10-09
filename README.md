@@ -33,3 +33,8 @@ You can also change the space for the cache.
 ImagePreloader.cacheMaxImages = 100
 ImagePreloader.cacheMaxSize = 100_000_000
 ```
+And set the number of retries and the time interval.
+```Swift
+ImagePreloader.retryCount = 10
+ImagePreloader.retryInterval = 1
+```
